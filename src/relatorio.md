@@ -1,48 +1,50 @@
-\# Relatório - Projeto Calculadora (DevOps)
+# Relatório - Projeto Calculadora (DevOps)
 
+## Equipe
+- Emmylio Chaves → Dev (Implementação, commits e PRs)  
+- Eric Anderson Soares → QA (Análise de CRs, revisão de PRs, execução de testes)  
+- Ytallo Sales → Gerente de Mudança (Trello, aprovação de CRs, atualização de changelog)  
 
+---
 
-\## O que foi modificado no projeto?
+## Fluxo realizado
 
-Foi criada a classe `Calculadora` com os métodos:
+### CR#1 – Implementar operação de raiz quadrada
+- Criado no Trello por Ytallo (Gerente).  
+- Analisado e aprovado por Eric (QA).  
+- Implementado por Emmylio (Dev).  
+- Commit: `CR#1: Implementa raiz quadrada na Calculadora`.  
+- Revisado e aprovado em PR por Eric (QA).  
+- Merge realizado no main.  
 
-\- `somar(int a, int b)`
+### CR#2 – Implementar operação de potência
+- Criado no Trello por Ytallo (Gerente).  
+- Analisado e aprovado por Eric (QA).  
+- Implementado por Emmylio (Dev).  
+- Commit: `CR#2: Implementa potência na Calculadora`.  
+- Revisado e aprovado em PR por Eric (QA).  
+- Merge realizado no main.  
 
-\- `subtrair(int a, int b)`
+### CR#3 – Tratamento de erros
+- Criado no Trello por Ytallo (Gerente).  
+- Analisado e aprovado por Eric (QA).  
+- Implementado por Emmylio (Dev).  
+- Commit: `CR#3: Adiciona tratamento de divisão por zero e raiz negativa`.  
+- Revisado e aprovado em PR por Eric (QA).  
+- Merge realizado no main.  
 
-\- `multiplicar(int a, int b)`
+---
 
-\- `dividir(int a, int b)`
+## Evidências
+- Quadro no Trello: CRs passaram por todas as fases (Backlog → Concluído).  
+- Commits claros e separados por CR.  
+- PRs abertos e revisados.  
+- CHANGELOG.md atualizado.  
+- Tag `v1.1` criada para a release.  
 
+---
 
-
-E a classe `Main` para testar os métodos.
-
-
-
-\## Por quem?
-
-\- Emmylio: implementou o método \*\*somar\*\*.
-
-\- Eric: implementou o método \*\*subtrair\*\*.
-
-\- ytallo: implementou o método \*\*multiplicar\*\*.
-
-\- Emmylio também integrou e ajustou o método \*\*dividir\*\*.
-
-
-
-\## Como garantiríamos a integridade dessa versão?
-
-\- Uso de branches (`feature-nome`) para cada integrante.
-
-\- Pull Requests revisados por colegas (ninguém aprovou o próprio código).
-
-\- Resolução de conflitos com merge.
-
-\- Criação da tag `v1.0` para marcar a versão estável.
-
-\- Testes cruzados feitos entre os membros do grupo.
-
-
-
+## Conclusão
+A equipe conseguiu seguir o fluxo de **Gestão de Mudanças (Change Management)**:  
+- Cada CR foi registrado, analisado, aprovado, implementado, revisado, testado e concluído.  
+- A rastreabilidade foi garantida através do Trello, GitHub (branches, PRs, commits) e CHANGELOG.
